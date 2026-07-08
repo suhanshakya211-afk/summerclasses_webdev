@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>My Todo List</h1>
+
+    <input 
+        type="text" 
+        id="title" 
+        placeholder="Task Title"
+    >
+
+    <input 
+        type="date" 
+        id="date"
+    >
+
+    <textarea 
+        id="description" 
+        placeholder="Task Description">
+    </textarea>
+
+
+    <button onclick="addTask()">
+        Add / Update Task
+    </button>
+
+
+    <h2>Tasks</h2>
+
+    <ul id="taskList"></ul>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,78 @@
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+}
+
+/* Header */
+header {
+    background-color: #0077cc;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+/* Main Content */
+main {
+    background-color: white;
+    border: 2px solid gray;
+    padding: 20px;
+}
+
+/* Headings */
+h1 {
+    color: #0077cc;
+    margin-bottom: 15px;
+}
+
+h2 {
+    color: #444;
+    margin-top: 20px;
+}
+
+/* Paragraphs */
+p {
+    margin: 15px 0;
+}
+
+/* Span and Strong */
+span {
+    color: red;
+    font-weight: bold;
+}
+
+strong {
+    color: green;
+}
+
+
+div {
+    border: 2px solid black;
+    background-color: #eeeeee;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* List */
+ul {
+    margin-left: 20px;
+}
+
+li {
+    margin: 8px 0;
+}
+
+/* Links */
+a {
+    color: blue;
+}
+
+a:hover {
+    color: darkblue;
+}
